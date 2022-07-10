@@ -1,7 +1,8 @@
 body{
     font-family: 'ssf4', Courier, monospace;
     background: var(--cor-secundaria);
-    zoom: 1;
+    zoom: 60%;
+    
 }
 
 body::before{
@@ -20,6 +21,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 10em;
 }
 
 .cabecalho{
